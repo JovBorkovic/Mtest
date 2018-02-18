@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+li a:hover {
+    cursor: pointer;
+}
+
+
+/*ID's*/
+
+#search {
+    width: 95%;
+    padding-left: 5%;
+}
+
+
+/*classes*/
+.container{
+    height: 100%;
+}
+
+nav ul li.active{
+    background-color: #100D65;
+}
+
+
+/*Nav*/
+.nav-wrapper{
+    background-color: #09064B;
+}
+nav i.material-icons{
+    font-size: 40px; /*this changes the size of the icon on the nav*/
+}
+
+
+/*Footer*/
+.page-footer{
+    background-color: #09064B;
+}
+
+
+/*Modal styling*/
+.btn-large{
+    background-color: #E3BE48;
+}
+.btn-large:hover{
+    background-color: #FFF;
+    color: #000;
+}
+.modal{
+    min-height: 80%;
+    width: 50%;
+}
+.modal-close{
+    background-color: #6B5200;
+}
+.modal-close:hover{
+    background-color: #FFF;
+    color: #000;
+}
+
+
+/*Max screen size 768px Tablet*/
+@media only screen and (max-width: 1024px){
+/*ID's'*/
+    
+/*classes*/
+    .modal{
+        min-width: 80% !important;
+    }
+}
+
+/*Max screen size 425px Tablet*/
+@media only screen and (max-width: 425px){
+/*ID's'*/
+    
+/*classes*/
+    .modal{
+        min-width: 95% !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
