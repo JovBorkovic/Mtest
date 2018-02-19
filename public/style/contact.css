@@ -20,3 +20,17 @@
     display: inline-block;
     text-align: center;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*screen width of 768px (Laptop)*/
+@media only screen and (max-width: 768px){
+/*removes text on contact buttons*/
+    .c-contact  .row  .col  .btn{
+         
+    }
+}
