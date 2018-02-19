@@ -1,0 +1,45 @@
+.filter-container{
+    width: 100%;
+    background-color: #45429E;
+    height: auto;
+}
+
+.filterLabel{
+    font-size: 15px;
+    color: white;
+}
+
+.btnColor{
+    background-color: #916E00;
+}
+
+.btnColor:hover{
+    background-color: #FFF;
+    color: #916E00;
+}
+
+.divider{
+    margin: 2%;
+}
+
+.collapsible-header{
+    background-color: #100D65;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.collapsible-body{
+    padding: 1.5%;
+}
+
+.material-icons{
+    color: #FFF;
+}
+
+#search{
+    border-color: #FFF;
+}
+
+.wide-container{
+    width: 100%;
+}
