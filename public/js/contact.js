@@ -17,6 +17,7 @@ $(document).ready( function(){
             complaintForm.removeClass('hide');
             suggestionForm.addClass('hide');
             complaintForm.addClass('hide');
+            supportForm.toggleClass('hide');
         }
     });
     
@@ -37,6 +38,7 @@ $(document).ready( function(){
             complaintForm.removeClass('hide');
             supportForm.addClass('hide');
             complaintForm.addClass('hide');
+            suggestionForm.toggleClass('hide');
         }
         
     });
@@ -58,6 +60,7 @@ $(document).ready( function(){
             suggestionForm.removeClass('hide');
             supportForm.addClass('hide');
             suggestionForm.addClass('hide');
+            complaintForm.toggleClass('hide');
         }
         
     });
