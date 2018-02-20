@@ -21,7 +21,7 @@
     text-align: center;
 }
 
-.container {
+.wide-container .container {
     display: flex;
     justify-content: center;
 }
