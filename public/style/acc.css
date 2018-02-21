@@ -1,0 +1,36 @@
+.wide-container{
+    width: 100%;
+}
+
+.acc-bgimage{
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    background-image: url('https://www.hdwallpapers.in/walls/mr_robot_hd_4k_8k-HD.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.acc-name-bg{
+    width: auto;
+    height: 60px;
+    background-color: #FFF;
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    border-top-right-radius: 10px;
+}
+
+.acc-name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #E3BE48;
+    font-size: 40px;
+}
+
+.acc-body{
+    width: auto;
+    height: 800px;
+}
