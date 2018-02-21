@@ -9,14 +9,13 @@ $(document).ready( function(){
         
         if(suggestionForm.hasClass('hide') && complaintForm.hasClass('hide'))
         {
+            suggestionForm.toggleClass('scale-transition scale-in');
             supportForm.toggleClass('hide');
         }
         else
         {
-            suggestionForm.removeClass('hide');
-            complaintForm.removeClass('hide');
-            suggestionForm.addClass('hide');
-            complaintForm.addClass('hide');
+            suggestionForm.removeClass('hide').addClass('hide');
+            complaintForm.removeClass('hide').addClass('hide');
             supportForm.toggleClass('hide');
         }
     });
@@ -34,10 +33,8 @@ $(document).ready( function(){
         }
         else
         {
-            supportForm.removeClass('hide');
-            complaintForm.removeClass('hide');
-            supportForm.addClass('hide');
-            complaintForm.addClass('hide');
+            supportForm.removeClass('hide').addClass('hide');
+            complaintForm.removeClass('hide').addClass('hide');
             suggestionForm.toggleClass('hide');
         }
         
@@ -56,10 +53,8 @@ $(document).ready( function(){
         }
         else
         {
-            supportForm.removeClass('hide');
-            suggestionForm.removeClass('hide');
-            supportForm.addClass('hide');
-            suggestionForm.addClass('hide');
+            supportForm.removeClass('hide').addClass('hide');
+            suggestionForm.removeClass('hide').addClass('hide');
             complaintForm.toggleClass('hide');
         }
         

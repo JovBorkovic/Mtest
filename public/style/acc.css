@@ -18,8 +18,7 @@
     height: 60px;
     background-color: #FFF;
     position: absolute;
-    left: 20px;
-    bottom: 0;
+    bottom: 0px;
     border-top-right-radius: 10px;
 }
 
@@ -33,4 +32,12 @@
 .acc-body{
     width: auto;
     height: 800px;
+}
+
+.tab-links{
+    font-family: 'Montserrat', sans-serif;
+    color: #E3BE48 !important;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
 }
