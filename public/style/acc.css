@@ -21,7 +21,7 @@
 /*as well as the position*/
 .acc-name-bg{
     width: auto;
-    height: 60px;
+    height: 40px;
     background-color: #FFF;
     position: absolute;
     bottom: 0px;
@@ -33,6 +33,9 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     color: #E3BE48;
+    font-size: 28px;
+}
+.acc-name .material-icons{
     font-size: 40px;
 }
 
