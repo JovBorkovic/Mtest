@@ -9,7 +9,6 @@ $(document).ready( function(){
         
         if(suggestionForm.hasClass('hide') && complaintForm.hasClass('hide'))
         {
-            suggestionForm.toggleClass('scale-transition scale-in');
             supportForm.toggleClass('hide');
         }
         else

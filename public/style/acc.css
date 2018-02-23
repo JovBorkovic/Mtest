@@ -2,8 +2,12 @@
     width: 100%;
 }
 
+
+/*this is the container for the background image*/
+/*you can control the height and width of this container*/
+/*changing values in this class may affect other containers within*/
 .acc-bgimage{
-    width: 80%;
+    width: 100%;
     height: 200px;
     margin: auto;
     background-image: url('https://www.hdwallpapers.in/walls/mr_robot_hd_4k_8k-HD.jpg');
@@ -12,7 +16,9 @@
     background-position: center;
     position: relative;
 }
-
+/*Div that holds the account name*/
+/*You can control the height of the div*/
+/*as well as the position*/
 .acc-name-bg{
     width: auto;
     height: 60px;
@@ -21,7 +27,8 @@
     bottom: 0px;
     border-top-right-radius: 10px;
 }
-
+/*displays the account name*/
+/*can edit the font type as well as the size*/
 .acc-name{
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
@@ -29,6 +36,9 @@
     font-size: 40px;
 }
 
+
+/*containes all elements under the bg image*/
+/*seperate from the background image container for the users name*/
 .acc-body{
     width: auto;
     height: 800px;
