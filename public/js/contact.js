@@ -59,4 +59,41 @@ $(document).ready( function(){
         
     });
     
+
+    
+    
+    
+    
+//Experimental code             !!!!NOT FUNCTIONING PROPERLY!!!!
+    
+    
+    
+//    //click function for support email
+//    $("#supportEmail").click(function(){
+//        let complaintForm   =   $("#complaintForm");
+//        let suggestionForm  =   $("#suggestionForm");
+//        let supportForm    =   $("#supportForm");
+//        
+//        //if the suggestion form & complaint form have class
+//        //'scale-out' then execute this code
+//        if (suggestionForm.hasClass('scale-out') && complaintForm.hasClass('scale-out'))
+//        {
+//            //
+//            if (supportForm.hasClass('scale-out')) {
+//                supportForm.removeClass('scale-out');
+//            }
+//            else {
+//                supportForm.addClass('scale-out');
+//            }
+//        }
+//        //else execute this code
+//        else
+//        {
+//            suggestionForm.removeClass('scale-out').addClass('scale-out');
+//            complaintForm.removeClass('scale-out').addClass('scale-out');
+//            supportForm.removeClass('scale-out');
+//        }
+//    });
+
+
 });
