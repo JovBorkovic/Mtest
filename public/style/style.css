@@ -26,23 +26,19 @@ li a:hover {
     height: 100%;
 }
 
-nav ul li.active{
+.activeNav{
     background-color: #100D65;
 }
 
 
 /*Nav*/
-.nav-wrapper{
+/*This class changes the nav*/
+/*and footer background colors*/
+.NavFooter_Blue{
     background-color: #09064B;
 }
 nav i.material-icons{
     font-size: 40px; /*this changes the size of the icon on the nav*/
-}
-
-
-/*Footer*/
-.page-footer{
-    background-color: #09064B;
 }
 
 
