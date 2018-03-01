@@ -20,7 +20,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative
+    position: relative;
 }
 /*Div that holds the account name*/
 /*You can control the height of the div*/
@@ -51,6 +51,7 @@
 .acc-body{
     width: auto;
     height: 800px;
+    display: flex;
 }
 
 .tab-links{
@@ -64,8 +65,18 @@
 .label{
     font-size: 20px;
 }
+.holder{
+    width: 80%;
+    height: 100%;
+}
 .acc-body .section{
+    max-width: 100%;
     margin-top: 20px;
     height: 200px;
 }
-
+.recactivity{
+    flex: auto;
+    justify-content: flex-end;
+    height: 100%;
+    background-color: aqua;
+}
