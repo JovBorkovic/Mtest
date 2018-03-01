@@ -31,8 +31,10 @@
     bottom: 0px;
     border-top-right-radius: 10px;
 }
-/*displays the account name*/
-/*can edit the font type as well as the size*/
+/*
+displays the account name
+can edit the font type as well as the size
+*/
 .acc-name{
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
@@ -44,8 +46,15 @@
 }
 
 
-/*containes all elements under the bg image*/
-/*seperate from the background image container for the users name*/
+
+
+
+
+
+/*
+containes all elements under the bg image
+seperate from the background image container for the users name
+*/
 .acc-body{
     width: auto;
     height: 800px;
@@ -58,22 +67,41 @@
     position: absolute;
     right: 20px;
     bottom: 0;
+    text-align: right;
+    display: flex;
 }
-/*label for sections on acc page*/
+.tab{
+    height: 100%;
+    background-color: #FFF;
+    padding: 6px 10px 0px 25px;
+    border-radius: 30% 10% 0% 0%;
+    display: inline-block;
+}
+/*
+label for sections on acc page
+*/
 .label{
     font-size: 20px;
 }
 .holder{
     width: 80%;
     height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 .acc-body .section{
     max-width: 100%;
     margin-top: 20px;
     height: 200px;
+    padding: 10px;
 }
-.recactivity{
-    flex: auto;
-    justify-content: flex-end;
-    height: 100%;
+/*
+recent activity container.
+-holds the recent activity messages
+*/
+.recactivity_container{
+    flex: 1;
+    background-color: #100D65;
+    margin-bottom: 7%;
+    border-radius: 4% 0% 4% 4%;
 }
