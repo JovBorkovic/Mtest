@@ -43,10 +43,10 @@ nav i.material-icons{
 
 
 /*Modal styling*/
-.btn-large{
+.btn-color-yellow{
     background-color: #E3BE48;
 }
-.btn-large:hover{
+.btn-color-yellow:hover{
     background-color: #FFF;
     color: #000;
 }

@@ -104,4 +104,21 @@ recent activity container.
     background-color: #100D65;
     margin-bottom: 7%;
     border-radius: 4% 0% 4% 4%;
+    overflow: hidden;
+}
+.recent_activity{
+    background-color: #F2F;
+    height: 80px;
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .holder{
+        width: 65%;
+    }
+    .acc-body .section{
+        height: 300px;
+    }
 }
