@@ -110,6 +110,14 @@ seperate from the background image container for the users name
     animation: pop 0.2s ease-in;
     animation-fill-mode: forwards;
 }
+.tab-content{
+    display: none;
+    background: #ededed;
+    padding: 15px;
+}
+.tab-content.current{
+    display: inherit;
+}
 /*
 label for sections on acc page
 */

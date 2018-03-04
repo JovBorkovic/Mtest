@@ -80,18 +80,26 @@ Container holding tabs selections.
 -->
                     <div>
                         <div class="tab-links">
-                            <div class="tab LtYellow_Text">
-                                <i class="material-icons">home</i>
-                            </div>
-                            <div class="tab LtYellow_Text">
-                                <i class="material-icons">image</i>
-                            </div>
-                            <div class="tab LtYellow_Text">
-                                <i class="material-icons">group</i>
-                            </div>
-                            <div class="tab LtYellow_Text">
-                                <i class="material-icons">settings</i>
-                            </div>
+                            <a href="#!">
+                                <div class="tab" data-tab="tab-home">
+                                    <i class="material-icons LtYellow_Text">home</i>
+                                </div>
+                            </a>
+                            <a href="#!">
+                                <div class="tab" data-tab="tab-image">
+                                    <i class="material-icons LtYellow_Text">image</i>
+                                </div>
+                            </a>
+                            <a href="#!">
+                                <div class="tab" data-tab="tab-group">
+                                    <i class="material-icons LtYellow_Text">group</i>
+                                </div>
+                            </a>
+                            <a href="#!">
+                                <div class="tab" data-tab="tab-settings">
+                                    <i class="material-icons LtYellow_Text">settings</i>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -110,28 +118,61 @@ The current information display is the default for when the
 account is accessed
 -->
                 <div class="holder">
+                    
+<!--
+----------------    Home tab-content
+-->
+                    <div id="tab-home" class="tab-content current">
 <!--
 This is the section that holds the uploads
 -->
-                    <div class="section">
-                        <div class="Uploads">
+                        <div class="section">
+                            <div class="Uploads">
 <!--
 Label for uploads
 -->
-                            <label class="label">Uploads</label>
+                                <label class="label">Uploads</label>
+                            </div>
                         </div>
-                    </div>
 <!--
 This is the section that displays and holds the group information
 -->
-                    <div class="section">
-                        <div class="group">
+                        <div class="section">
+                            <div class="group">
 <!--
 Label for group activity
 -->
-                            <label class="label">Group Activity</label>
+                                <label class="label">Group Activity</label>
+                            </div>
                         </div>
                     </div>
+                    
+                    
+<!--
+----------------    image tab-content
+-->
+                    <div id="tab-image" class="tab-content">
+                        
+                    </div>
+                    
+
+<!--
+----------------    group tab-content
+-->
+                    <div id="tab-group" class="tab-content">
+                        
+                    </div>
+                    
+                    
+<!--
+----------------    settings tab-content
+-->
+                    <div id="tab-settings" class="tab-content">
+                        
+                    </div>
+                    
+                    
+                    
                 </div>
 
 <!--
