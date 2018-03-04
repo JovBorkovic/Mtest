@@ -4,7 +4,6 @@ body {
     flex-direction: column;
     font-family: 'Mukta Mahee', sans-serif;
 }
-
 main {
     flex: 1 0 auto;
 }
@@ -14,35 +13,38 @@ li a:hover {
 }
 
 /*ID's*/
-
 #search {
     width: 95%;
     padding-left: 5%;
 }
 
 
-/*classes*/
+/*
+======================================       classes
+*/
+
+/*
+----------------------------       Container
+*/
 .container{
     height: 100%;
 }
-
 .activeNav{
     background-color: #100D65;
 }
 
 
-/*Nav*/
-/*This class changes the nav*/
-/*and footer background colors*/
-.NavFooter_Blue{
-    background-color: #09064B;
-}
+/*
+-----------------------------        Nav
+*/
 nav i.material-icons{
     font-size: 40px; /*this changes the size of the icon on the nav*/
 }
 
 
-/*Modal styling*/
+/*
+---------------------------      Modal styling
+*/
 .btn-color-yellow{
     background-color: #E3BE48;
 }

@@ -1,0 +1,109 @@
+/*
+===================================     Font style
+*/
+.Monsterrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*
+====================================       Colors
+
+Blue Colors
+
+
+Lightest Blue color  =  #45429E,
+Light blue color     =  #2A2694,
+blue color           =  #1C187A,
+darker blue color    =  #100D65,
+darkest blue color   =  #09064B,
+
+
+Yellow colors
+
+Lightest yellow color  =  #E3BE48,
+Light yellow color     =  #D4A81C,
+yellow color           =  #AF880B,
+darker yellow color    =  #916E00,
+darkest yellow color   =  #6B5200,
+*/
+
+/*
+-------------      background  Colors
+*/
+/*
+    Blue BG
+*/
+.LtBlue_BG{
+     background-color: #45429E !important;
+}
+.LBlue_BG{
+     background-color: #2A2694 !important;
+}
+.Blue_BG{
+     background-color: #1C187A !important;
+}
+.DBlue_BG{
+     background-color: #100D65 !important;
+}
+.DtBlue_BG{
+     background-color: #09064B !important;
+}
+
+/*
+    Yellow BG
+*/
+.LtYellow_BG{
+     background-color: #E3BE48 !important;
+}
+.LYellow_BG{
+     background-color: #D4A81C !important;
+}
+.Yellow_BG{
+     background-color: #AF880B !important;
+}
+.DYellow_BG{
+     background-color: #916E00 !important;
+}
+.DtYellow_BG{
+     background-color: #6B5200 !important;
+}
+
+/*
+--------------------   Text Colors
+*/
+/*
+    Blue Text
+*/
+.LtBlue_Text{
+      color: #45429E !important;
+}
+.LBlue_Text{
+      color: #2A2694 !important;
+}
+.Blue_Text{
+      color: #1C187A !important;
+}
+.DBlue_Text{
+      color: #100D65 !important;
+}
+.DtBlue_Text{
+      color: #09064B !important;
+}
+/*
+    Yellow BG
+*/
+.LtYellow_Text{
+      color: #E3BE48 !important;
+}
+.LYellow_Text{
+      color: #D4A81C !important;
+}
+.Yellow_Text{
+      color: #AF880B !important;
+}
+.DYellow_Text{
+      color: #916E00 !important;
+}
+.DtYellow_Text{
+      color: #6B5200 !important;
+}

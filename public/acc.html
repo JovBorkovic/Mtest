@@ -15,6 +15,7 @@
 <!--Linking my own css style sheets-->
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/acc.css">
+    <link rel="stylesheet" href="style/BG_Text_Colors.css">
 </head>
 
 
@@ -22,7 +23,7 @@
 <body>
 <!--Navigation menus-->
       <nav>
-            <div class="row nav-wrapper NavFooter_Blue">
+            <div class="row nav-wrapper DtBlue_BG">
                 <div class="col s2 m2 l4 xl4">
                     <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
 <!-- naviagtion menu for desktop-->
@@ -67,12 +68,12 @@ This container takes up the entire window.-->
 
                     <div class="row">
                         <div class="col xl acc-name-bg">
-                            <div class="acc-name left"><i class="material-icons left">account_circle</i>Jovan Borkovic</div>
+                            <div class="acc-name left LtYellow_Text"><i class="material-icons left">account_circle</i>Jovan Borkovic</div>
                         </div>
                     </div>
     <!--Container holding tabs selections.-->
                     <div class="row">
-                        <div class="col tab-links">
+                        <div class="col tab-links LtYellow_Text">
                             <div class="tab">
                                 <i class="material-icons">mode_comment</i>
                             </div>
@@ -114,12 +115,21 @@ This container takes up the entire window.-->
                 </div>
                 
     <!--Container for holding recent activity notices-->
-                <div class="recactivity_container z-depth-3">
-                    <div class="recent_activity message_border">
+                <div class="recactivity_container DtBlue_BG z-depth-4 Monsterrat">
+                    <div class="label center black">Recent Posts</div>
+                    <div class="recent_activity">
+                        <div class="row">
+                            <div class="col xl3 white-text">
+                                <i class="material-icons">account_circle</i>
+                            </div>
+                            <div class="col xl9 white-text time">
+                                Tuesday, Feb 2, 2017 at 2:14 AM
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="recent_activity">
                         <div class="message">
-                            
-                            ???????????????????????????????????????????????????????????
-                            
                             
                         </div>
                     </div>
@@ -138,8 +148,10 @@ This container takes up the entire window.-->
     
     
 
-<!--Footer-->
-    <footer class="page-footer NavFooter_Blue">
+<!--
+============================================            Footer
+-->
+    <footer class="page-footer DtBlue_BG">
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
@@ -167,7 +179,9 @@ This container takes up the entire window.-->
     </footer>
     
     
-<!-- Sign up Modal Structure -->
+<!-- 
+============================================     Sign up Modal Structure 
+-->
   <div id="modal1" class="modal center-align">
 <!--Sign up form content -->
     <div class="modal-content">
@@ -215,7 +229,9 @@ This container takes up the entire window.-->
   </div>
     
     
-<!-- Login Modal Structure -->
+<!--
+============================================     Login Modal Structure 
+-->
   <div id="modal2" class="modal center-align">
 <!--Login form-->
     <div class="modal-content">
@@ -247,9 +263,6 @@ This container takes up the entire window.-->
         </div>
     </div>
   </div>
-
-
-
 
 
 

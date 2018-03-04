@@ -3,9 +3,13 @@
 }
 
 
-/*this is the container for the background image*/
-/*you can control the height and width of this container*/
-/*changing values in this class may affect other containers within*/
+/*
+====================================             Parallax Background Container
+*/
+/*
+you can control the height and width of this container
+changing values in this class may affect other containers within
+*/
 .parallax-container{
     height: 300px;
 }
@@ -20,9 +24,13 @@
     background-size: cover;
     position: relative;
 }
-/*Div that holds the account name*/
-/*You can control the height of the div*/
-/*as well as the position*/
+/*
+--------------------Div that holds the account name
+*/
+/*
+You can control the height of the div
+as well as the position
+*/
 .acc-name-bg{
     width: auto;
     height: 40px;
@@ -38,21 +46,30 @@ can edit the font type as well as the size
 .acc-name{
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-    color: #E3BE48;
     font-size: 28px;
+    text-transform: uppercase;
 }
 .acc-name .material-icons{
     font-size: 40px;
 }
 
+.wide-container > .acc-body > .recactivity_container > .recent_activity > .row > .col > .material-icons{
+    font-size: 80px;
+}
 
-
-
+.wide-container > .acc-body > .recactivity_container > .recent_activity > .row > .time{
+    font-size: 10px;
+}
 
 
 
 /*
-containes all elements under the bg image
+=============================           Main account container
+*/
+/*
+-------------------   contains all elements under the bg image
+*/
+/*
 seperate from the background image container for the users name
 */
 .acc-body{
@@ -62,8 +79,6 @@ seperate from the background image container for the users name
 }
 
 .tab-links{
-    font-family: 'Montserrat', sans-serif;
-    color: #E3BE48 !important;
     position: absolute;
     right: 20px;
     bottom: 0;
@@ -82,6 +97,7 @@ label for sections on acc page
 */
 .label{
     font-size: 20px;
+    text-transform: uppercase;
 }
 .holder{
     width: 80%;
@@ -96,22 +112,37 @@ label for sections on acc page
     padding: 10px;
 }
 /*
-recent activity container.
--holds the recent activity messages
+------------------------recent activity container.
+*/
+/*
+holds the recent activity messages
 */
 .recactivity_container{
     flex: 1;
-    background-color: #100D65;
     margin-bottom: 7%;
-    border-radius: 4% 0% 4% 4%;
+    border-radius: 6% 0% 6% 6%;
     overflow: hidden;
 }
+.recactivity_container .label{
+    font-size: 20px;
+    color: #FFF;
+    padding: 5px;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
 .recent_activity{
-    background-color: #F2F;
+    border-bottom: 1px solid #FFF;
     height: 80px;
 }
-
-
+/*
+Where the message is stored
+*/
+.message{
+    background-image: url('../img/notification/60-lines.png');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
 
 
 @media only screen and (max-width: 1024px) {
