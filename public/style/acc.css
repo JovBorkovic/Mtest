@@ -18,7 +18,7 @@ changing values in this class may affect other containers within
 parallax-container animation class
 */
 .stretch{
-    animation: stretch 1.3s ease-in;
+    animation: stretch 0.4s cubic-bezier(0, 0.42, 0, 1.29);
     animation-fill-mode: forwards;
 }
 /*
