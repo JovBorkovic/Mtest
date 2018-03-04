@@ -14,7 +14,7 @@ changing values in this class may affect other containers within
     height: 300px;
     z-index: 0;
 }
-.parallax-container:active{
+.stretch{
     animation: stretch 3s ease-in;
     animation-fill-mode: forwards;
 }
