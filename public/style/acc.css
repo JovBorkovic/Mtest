@@ -14,9 +14,16 @@ changing values in this class may affect other containers within
     height: 300px;
     z-index: 0;
 }
+/*
+parallax-container animation class
+*/
 .stretch{
     animation: stretch 1.3s ease-in;
+    animation-fill-mode: forwards;
 }
+/*
+------------------- the parallax element
+*/
 .parallax{
     /* The image used */
     background-image:url('../img/acc/mr_robot.jpg');
