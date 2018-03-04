@@ -16,7 +16,6 @@ changing values in this class may affect other containers within
 }
 .stretch{
     animation: stretch 1.3s ease-in;
-    animation-fill-mode: forwards;
 }
 .parallax{
     /* The image used */
