@@ -20,7 +20,7 @@ changing values in this class may affect other containers within
 }
 .parallax{
     /* The image used */
-    background-image:url(https://www.hdwallpapers.in/walls/mr_robot_hd_4k_8k-HD.jpg);
+    background-image:url('../img/acc/mr_robot.jpg');
     
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
