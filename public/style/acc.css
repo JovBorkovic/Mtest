@@ -12,6 +12,7 @@ changing values in this class may affect other containers within
 */
 .parallax-container{
     height: 300px;
+    z-index: 0;
 }
 .parallax{
     /* The image used */
@@ -22,7 +23,6 @@ changing values in this class may affect other containers within
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 }
 /*
 --------------------Div that holds the account name
@@ -92,6 +92,10 @@ seperate from the background image container for the users name
     border-radius: 30% 10% 0% 0%;
     display: inline-block;
 }
+.tab:hover{
+    animation: pop 0.5s ease-in-out;
+}
+
 /*
 label for sections on acc page
 */
@@ -144,6 +148,18 @@ Where the message is stored
     background-size: cover;
 }
 
+
+
+
+/*
+=========================================      Animations
+*/
+@-webkit-keyframes pop{
+      50%  {transform: scale(1.2); background-color: #000;}
+}
+@keyframes pop{
+      50%  {transform: scale(1.2); background-color: #000;}
+}
 
 @media only screen and (max-width: 1024px) {
     .holder{
