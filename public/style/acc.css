@@ -93,7 +93,8 @@ seperate from the background image container for the users name
     display: inline-block;
 }
 .tab:hover{
-    animation: pop 0.5s ease-in-out;
+    animation: pop 0.2s ease-in;
+    animation-fill-mode: forwards;
 }
 
 /*
@@ -149,16 +150,14 @@ Where the message is stored
 }
 
 
-
-
 /*
 =========================================      Animations
 */
 @-webkit-keyframes pop{
-      50%  {transform: scale(1.2); background-color: #000;}
+      100%  {transform: scale(1.2); background-color: #000;}
 }
 @keyframes pop{
-      50%  {transform: scale(1.2); background-color: #000;}
+      100%  {transform: scale(1.2); background-color: #000;}
 }
 
 @media only screen and (max-width: 1024px) {
