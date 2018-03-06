@@ -52,6 +52,11 @@ nav i.material-icons{
     background-color: #FFF;
     color: #000;
 }
+.modal .btn-color-yellow{
+    width: 20%;
+    height: 10%;
+    padding: 20px;
+}
 .modal{
     min-height: 80%;
     width: 50%;

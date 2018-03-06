@@ -110,9 +110,11 @@ seperate from the background image container for the users name
     animation: pop 0.2s ease-in;
     animation-fill-mode: forwards;
 }
+.tab.current{
+    background-color: #000;
+}
 .tab-content{
     display: none;
-    background: #ededed;
     padding: 15px;
 }
 .tab-content.current{
@@ -161,14 +163,8 @@ label for sections on acc page
     border-bottom: 1px solid #FFF;
     height: 80px;
 }
-/*
----------------Where the message is stored
-*/
-.message{
-    background-image: url('../img/notification/60-lines.png');
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
+.recent_activity:last-child{
+    border-bottom: 0px;
 }
 
 /*
@@ -183,7 +179,9 @@ label for sections on acc page
 @keyframes pop{
       100%  {transform: scale(1.2); background-color: #000;}
 }
-
+/*
+-------------------Stretch effect parallax
+*/
 @-webkit-keyframes stretch{
     100% {    
         z-index: 2; 
@@ -206,11 +204,50 @@ label for sections on acc page
 }
 
 
+
+
 @media only screen and (max-width: 1024px) {
+/*
+=============================           Main account container
+*/
+/*
+-------------------   contains all elements under the bg image
+*/
+/*
+seperate from the background image container for the users name
+*/
+    .acc-body{
+        width: auto;
+        height: 800px;
+        display: inline;
+    }
     .holder{
-        width: 65%;
+        width: 100%;
+        height: auto;
+        overflow-x: auto;
+        overflow-y: auto;
     }
     .acc-body .section{
         height: 300px;
     }
+/*
+    ====================================     recent activity container.
+*/
+/*
+---------------holds the recent activity messages
+*/
+    .recactivity_container{
+        width: 100%;
+        border-radius: 0%;
+        padding-bottom: 5px;
+    }
+    .recactivity_container .label{
+        padding: 10px;
+        letter-spacing: 5px;
+    }
+    .recent_activity{
+        border-bottom: 1px solid #FFF;
+        height: 80px;
+    }
+    
 }

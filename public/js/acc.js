@@ -25,7 +25,6 @@ $().ready(function(){
             parallax.removeClass(stretch);
         }
         //else nothing happens.
-        
     });
     
     
