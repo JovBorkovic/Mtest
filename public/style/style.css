@@ -30,7 +30,7 @@ li a:hover {
     height: 100%;
 }
 .activeNav{
-    background-color: #100D65;
+    background-color: #323231;
 }
 
 
@@ -46,11 +46,12 @@ nav i.material-icons{
 ---------------------------      Modal styling
 */
 .btn-color-yellow{
-    background-color: #E3BE48;
+    background-color: #FFFAF8;
+    color: #9D8330;
 }
 .btn-color-yellow:hover{
-    background-color: #FFF;
-    color: #000;
+    background-color: #DFB8A3;
+    color: #FFF;
 }
 .modal .btn-color-yellow{
     width: 20%;
@@ -62,11 +63,11 @@ nav i.material-icons{
     width: 50%;
 }
 .modal-close{
-    background-color: #6B5200;
+    background-color: #0F4174;
 }
 .modal-close:hover{
-    background-color: #FFF;
-    color: #000;
+    background-color: #0F4E90;
+    color: #FFF;
 }
 
 

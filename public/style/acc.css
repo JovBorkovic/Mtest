@@ -26,6 +26,7 @@ parallax-container animation class
 */
 .parallax{
     /* The image used */
+    /*https://www.hdwallpapers.in/walls/mr_robot_hd_4k_8k-HD.jpg*/
     background-image:url('../img/acc/mr_robot.jpg');
     
     /* Create the parallax scrolling effect */
@@ -46,7 +47,6 @@ as well as the position
 .acc-name-bg{
     width: auto;
     height: 40px;
-    background-color: #FFF;
     position: absolute;
     bottom: 0px;
     border-top-right-radius: 10px;

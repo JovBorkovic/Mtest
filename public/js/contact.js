@@ -44,7 +44,7 @@ $(document).ready( function(){
     $("#complaintEmail").click(function(){
         let complaintForm   =   $("#complaintForm");
         let suggestionForm  =   $("#suggestionForm");
-        let supportForm    =   $("#supportForm");      
+        let supportForm    =   $("#supportForm");
         
         if(supportForm.hasClass('hide') && suggestionForm.hasClass('hide'))
         {

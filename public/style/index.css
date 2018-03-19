@@ -33,9 +33,9 @@
 the overlapping element on the parallax
 */
 .parallax .overLap{
-    width: 60%;
+    width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0, 0.5);
+    background-color: rgba(0,0,0, 0.6);
     margin: auto;
     position: relative;
 }
@@ -45,7 +45,7 @@ Customization of button on
 .parallax .overLap .btn-color-yellow{
     position: absolute;
     bottom: 30px;
-    left: 43%;
+    left: 47%;
     height: 60px;
     padding: 15px 30px;
 }
@@ -117,12 +117,6 @@ Customization of button on
 /*Parallax*/
     .parallax{
         height: 400px;
-    }
-    
-    .parallax .overLap{
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0,0,0, 0.5);
     }
     
 /*Modal*/
