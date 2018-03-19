@@ -39,11 +39,9 @@
 }
 /*form settings*/
 .form{
-    color: #FFF;
     width: 100%;
     height: 100%;
     border-radius: 5px;
-    background-color: rgb(107, 82, 0);
 }
 .formLegend{
     font-size: 30px;
