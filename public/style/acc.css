@@ -106,6 +106,9 @@ seperate from the background image container for the users name
     border-radius: 30% 10% 0% 0%;
     display: inline-block;
 }
+.tab .material-icons{
+    color: #5E4C12 !important;
+}
 .tab:hover{
     animation: pop 0.2s ease-in;
     animation-fill-mode: forwards;
