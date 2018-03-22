@@ -253,3 +253,14 @@ seperate from the background image container for the users name
     }
     
 }
+
+@media only screen and (max-width: 768px) {
+    .tabs-mobile{
+        width: 100%;
+    }
+    .tab{
+        width:25%;
+        border-radius: 0%;
+    }
+    
+}
