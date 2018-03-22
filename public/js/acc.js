@@ -29,15 +29,92 @@ $().ready(function(){
     
     
     
-//=============================           Tab button trigger
-    $('.tab-links > a > .tab').click(function(){
-		var tab_id = $(this).attr('data-tab');
+//=============================           Tab button trigger 
+//----------------  Click event for tabs (Desktop)  
+    $('.tab-links > a > .tab').click(
+    //Function for desktop tabs
+    //variable that holds a function
+        function tabs() {
+            //variable that hold the 'this' 'data-tab' information
+            //the 'this' which in this case is the current '.tab' that was clicked
+            var tab_id = $(this).attr('data-tab');
+            
+            //removes the class 'current' from all elements with a '.tab' class
+            $('.tab-links > a > .tab').removeClass('current');
+            //removes the class 'current' from all elements with a '.tab-content' class
+            $('.tab-content').removeClass('current');
 
-		$('.tab-links > a > .tab').removeClass('current');
-		$('.tab-content').removeClass('current');
+            //adds a class '.current' to the 'this'
+            //in this case the 'this' is the '.tab' container that was clicked
+            $(this).addClass('current');
+            //adds a class '.current' to the id container that matches the 'this' 'data-tab' value
+            $("#"+tab_id).addClass('current');
+        }
+    );
 
-		$(this).addClass('current');
-		$("#"+tab_id).addClass('current');
-	})
+//----------------  Click event for tabs (Mobile) 
+    $('.tabs-mobile > a > .tab').click(
+    //Function for mobile tabs
+    //variable that holds a function
+        function tabsMobile() {
+            //variable that hold the 'this' 'data-tab' information
+            //the 'this' which in this case is the current '.tab' that was clicked
+            var tab_id = $(this).attr('data-tab');
+            
+            //removes the class 'current' from all elements with a '.tab' class
+            $('.tabs-mobile > a > .tab').removeClass('current');
+            //removes the class 'current' from all elements with a '.tab-content' class
+            $('.tab-content').removeClass('current');
+
+            //adds a class '.current' to the 'this'
+            //in this case the 'this' is the '.tab' container that was clicked
+            $(this).addClass('current');
+            //adds a class '.current' to the id container that matches the 'this' 'data-tab' value
+            $("#"+tab_id).addClass('current');
+        }
+    );
+    
+    
+//============================            Tab mobile
+
+    (function() {
+        var clone = $('.tab-links').clone();
+        var winIsSmall= $(window).width() <= 768;
+
+        if (winIsSmall) {
+            if($('.tabs-mobile').length < 1 ) {
+                clone.insertBefore('.acc-body').removeClass('tab-links').addClass('tabs-mobile');
+                $('.tab-links').remove();
+            }
+        }
+        
+        else {
+            if($('.tab-links').length < 1 ) {
+                clone.appendTo('.wide-container > .parallax-container > .parallax >  div:nth-child(2)');
+                $('.tabs-mobile').remove();
+            }
+        }
+    })();
+
+
+
+    $( window ).resize(function() {
+        var clone = $('.tab-links').clone();
+        var winIsSmall= $(window).width() <= 768;
+
+        if (winIsSmall) {
+            if($('.tabs-mobile').length < 1 ) {
+                clone.insertBefore('.acc-body').removeClass('tab-links').addClass('tabs-mobile');
+                $('.tab-links').remove();
+            }
+        }
+        
+        else {
+            if($('.tab-links').length < 1 ) {
+                clone.appendTo('.wide-container > .parallax-container > .parallax > div:nth-child(2)');
+                $('.tabs-mobile').remove();
+            }
+        }
+    });
     
 });

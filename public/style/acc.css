@@ -131,7 +131,7 @@ label for sections on acc page
     text-transform: uppercase;
 }
 .holder{
-    width: 80%;
+    width: 75%;
     height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
@@ -157,7 +157,6 @@ label for sections on acc page
 }
 .recactivity_container .label{
     font-size: 20px;
-    color: #FFF;
     padding: 5px;
     letter-spacing: 5px;
     font-weight: 600;
@@ -222,7 +221,7 @@ seperate from the background image container for the users name
     .acc-body{
         width: auto;
         height: 800px;
-        display: inline;
+        display:inline;
     }
     .holder{
         width: 100%;
