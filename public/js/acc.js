@@ -1,30 +1,31 @@
+//Checks to see if the document is loaded before running code
 $().ready(function(){
     
 
     
 //=============================        Parallax Stretch Animation Trigger
-
-//------------------  Add the class on double click
-    $('.parallax-container').dblclick(function(){
-        let parallax = $('.parallax-container');//creates a block scope local variable for 'parallax-container'.
-        let stretch  = 'stretch';//creates a block scope local variable for the string "stretch".
-        
-        parallax.addClass(stretch);//adds class stretch to parallax.
-
-    });
     
-//-----------------  Remove the class on click
-    $('.parallax-container').click(function(){
-        let parallax = $('.parallax-container');//creates a block scope local variable for 'parallax-container'.
-        let stretch  = 'stretch';//creates a block scope local variable for the string "stretch".
+    function StretchFullScreen(CheckIn, LookForClass) {
+        let container = CheckIn;//set local variable to Container to check
+        let _class = LookForClass;//set local variable to Class to look for in the container
         
-        //checks to see if parallax has class stretch.
-        if(parallax.hasClass(stretch)){
+        //checks to see if CheckIn has class LookForClass.
+        if(container.hasClass(_class)){
             //if it does...
             //this code is executed.
-            parallax.removeClass(stretch);
+            container.removeClass(_class);
         }
-        //else nothing happens.
+        //if it does not then run this code...
+        else {
+            container.addClass(_class);//adds class stretch to parallax.
+        }
+    };
+    
+    
+    //DoubleClick event for "parallax-container"
+    $('.parallax-container').dblclick(function(){
+        //invoke function StretchFullScreen(CheckIn, LookForClass);
+        StretchFullScreen($('.parallax-container'), 'stretch');
     });
     
     
