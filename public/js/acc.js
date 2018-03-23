@@ -31,7 +31,7 @@ $().ready(function(){
     
 //=============================           Tab button trigger 
 //----------------  Click event for tabs (Desktop)  
-    $('.tab-links > a > .tab').click(
+    $('.tab-links > .tab').click(
     //Function for desktop tabs
     //variable that holds a function
         function tabs() {
@@ -40,7 +40,7 @@ $().ready(function(){
             var tab_id = $(this).attr('data-tab');
             
             //removes the class 'current' from all elements with a '.tab' class
-            $('.tab-links > a > .tab').removeClass('current');
+            $('.tab-links > .tab').removeClass('current');
             //removes the class 'current' from all elements with a '.tab-content' class
             $('.tab-content').removeClass('current');
 
@@ -53,7 +53,7 @@ $().ready(function(){
     );
 
 //----------------  Click event for tabs (Mobile) 
-    $('.tabs-mobile > a > .tab').click(
+    $('.tabs-mobile > .tab').click(
     //Function for mobile tabs
     //variable that holds a function
         function tabsMobile() {
@@ -62,7 +62,7 @@ $().ready(function(){
             var tab_id = $(this).attr('data-tab');
             
             //removes the class 'current' from all elements with a '.tab' class
-            $('.tabs-mobile > a > .tab').removeClass('current');
+            $('.tabs-mobile > .tab').removeClass('current');
             //removes the class 'current' from all elements with a '.tab-content' class
             $('.tab-content').removeClass('current');
 
@@ -78,40 +78,32 @@ $().ready(function(){
 //============================            Tab mobile
 
     (function() {
-        var clone = $('.tab-links').clone();
-        var clone2 = $('.tabs-mobile').clone();
         var winIsSmall= $(window).width() <= 768;
 
         if (winIsSmall) {
-            if($('.tabs-mobile').length < 1 ) {
-                clone.insertBefore('.acc-body').removeClass('tab-links').addClass('tabs-mobile');
-                $('.tab-links').hide();
-            }
+            $('.tabs-mobile').show();
+            $('.tab-links').hide();
         }
         
         else {
-                $('.tab-links').show();
-                $('.tabs-mobile').remove();
+            $('.tab-links').show();
+            $('.tabs-mobile').hide();
         }
     })();
 
 
 
     $( window ).resize(function() {
-        var clone = $('.tab-links').clone();
-        var clone2 = $('.tabs-mobile').clone();
         var winIsSmall= $(window).width() <= 768;
 
         if (winIsSmall) {
-            if($('.tabs-mobile').length < 1 ) {
-                clone.insertBefore('.acc-body').removeClass('tab-links').addClass('tabs-mobile');
-                $('.tab-links').hide();
-            }
+            $('.tab-links').hide();
+            $('.tabs-mobile').show();
         }
         
         else {
-                $('.tab-links').show();
-                $('.tabs-mobile').remove();
+            $('.tab-links').show();
+            $('.tabs-mobile').hide();
         }
     });
     
