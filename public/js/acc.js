@@ -31,7 +31,7 @@ $().ready(function(){
     
     
 //=============================           Tab button trigger 
-//----------------  Click event for tabs (Desktop)  
+//----------------  Click event for tabs (Desktop)
     $('.tab-links > .tab').click(
     //Function for desktop tabs
     //variable that holds a function
