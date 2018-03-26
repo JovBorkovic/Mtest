@@ -69,21 +69,21 @@ darkest yellow color   =  #6B5200,
 }
 
 /*
-    Brown BG
+    Pink BG
 */
-.LtBrown_BG{
+.LtPink_BG{
      background-color: #E76BA3 !important;
 }
-.LBrown_BG{
+.LPink_BG{
      background-color: #DC458A !important;
 }
-.Brown_BG{
+.Pink_BG{
      background-color: #D02372 !important;
 }
-.DBrown_BG{
+.DPink_BG{
      background-color: #AD0A54 !important;
 }
-.DtBrown_BG{
+.DtPink_BG{
      background-color: #88003E !important;
 }
 
@@ -152,21 +152,21 @@ darkest yellow color   =  #6B5200,
 }
 
 /*
-    Brown Text
+    Pink Text
 */
-.LtBrown_Text{
+.LtPink_Text{
      color: #E76BA3 !important;
 }
-.LBrown_Text{
+.LPink_Text{
      color: #DC458A !important;
 }
-.Brown_Text{
+.Pink_Text{
      color: #D02372 !important;
 }
-.DBrown_Text{
+.DPink_Text{
      color: #AD0A54 !important;
 }
-.DtBrown_Text{
+.DtPink_Text{
      color: #88003E !important;
 }
 
