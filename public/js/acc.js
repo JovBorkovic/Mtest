@@ -27,9 +27,9 @@ $().ready(function(){
         //invoke function StretchFullScreen(CheckIn, LookForClass);
         StretchFullScreen($('.parallax-container'), 'stretch');
     });
-    
-    
-    
+
+
+
 //=============================           Tab button trigger 
 //----------------  Click event for tabs (Desktop)
     $('.tab-links > .tab').click(

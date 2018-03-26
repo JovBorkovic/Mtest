@@ -34,19 +34,19 @@ darkest yellow color   =  #6B5200,
     Blue BG
 */
 .LtBlue_BG{
-     background-color: #0F4E90 !important;
+     background-color: #9FC0E7 !important;
 }
 .LBlue_BG{
-     background-color: #104781 !important;
+     background-color: #548ACB !important;
 }
 .Blue_BG{
-     background-color: #0F4174 !important;
+     background-color: #2469BB !important;
 }
 .DBlue_BG{
-     background-color: #0E3A69 !important;
+     background-color: #0A4790 !important;
 }
 .DtBlue_BG{
-     background-color: #0F4174 !important;
+     background-color: #052D5E !important;
 }
 
 /*
@@ -117,19 +117,19 @@ darkest yellow color   =  #6B5200,
     Blue Text
 */
 .LtBlue_Text{
-      color: #0F4E90 !important;
+      color: #9FC0E7 !important;
 }
 .LBlue_Text{
-      color: #104781 !important;
+      color: #548ACB !important;
 }
 .Blue_Text{
-      color: #0F4174 !important;
+      color: #2469BB !important;
 }
 .DBlue_Text{
-      color: #0E3A69 !important;
+      color: #0A4790 !important;
 }
 .DtBlue_Text{
-      color: #0F4174 !important;
+      color: #052D5E !important;
 }
 
 /*
@@ -139,7 +139,7 @@ darkest yellow color   =  #6B5200,
       color: #323231 !important;
 }
 .LBlack_Text{
-      color: #1B1B1A !important;
+      color: #548ACB !important;
 }
 .Black_Text{
       color: #0F0E0E !important;
@@ -215,3 +215,10 @@ darkest yellow color   =  #6B5200,
 .color-complement-2 { color: #104781 }
 .color-complement-3 { color: #0E3A69 }
 .color-complement-4 { color: #0A335C }
+
+
+.color-primary-0 { color: #2469BB }	/* Main Primary color */
+.color-primary-1 { color: #9FC0E7 }
+.color-primary-2 { color: #548ACB }
+.color-primary-3 { color: #0A4790 }
+.color-primary-4 { color: #052D5E }

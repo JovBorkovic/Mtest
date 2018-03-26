@@ -45,15 +45,11 @@ nav i.material-icons{
 /*
 ---------------------------      Modal styling
 */
-.btn-color-yellow{
-    background-color: #FFFAF8;
-    color: #9D8330;
+.btn.LPink_Text.White_BG:hover{
+    background-color: #DC458A !important;
+    color: #FFF !important;
 }
-.btn-color-yellow:hover{
-    background-color: #DFB8A3;
-    color: #FFF;
-}
-.modal .btn-color-yellow{
+.modal .btn.LPink_Text.White_BG{
     width: 20%;
     height: 10%;
     padding: 20px;
@@ -94,8 +90,14 @@ nav i.material-icons{
 
 
 
-
-
+/*Max screen size 425px Tablet*/
+@media only screen and (max-width: 768px){
+    .modal .btn.LPink_Text.White_BG{
+        width: 30%;
+        height: 20%;
+        padding: 20px;
+    }
+}
 
 
 

@@ -42,7 +42,7 @@ the overlapping element on the parallax
 /*
 Customization of button on
 */
-.parallax .overLap .btn-color-yellow{
+.parallax .overLap .btn.LPink_Text.White_BG{
     position: absolute;
     bottom: 30px;
     left: 47%;
