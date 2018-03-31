@@ -60,9 +60,10 @@ select[class="browser-default"]{
 }
 /*option setting from dropdown*/
 select[class="browser-default"] option{
-    background-color: rgba(212, 168, 28, 0.7);
+    color: #548ACB;
     font-weight: 600;
 }
+
 
 
 
