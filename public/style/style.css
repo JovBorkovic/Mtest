@@ -58,8 +58,6 @@ li a:hover {
 */
 nav i.material-icons{
     font-size: 40px; /*this changes the size of the icon on the nav*/
-}
-nav i.material-icons:hover{
     cursor: pointer;
 }
 
