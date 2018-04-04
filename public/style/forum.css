@@ -5,3 +5,21 @@
 .thread{
     padding: 5% 0;
 }
+
+
+
+/*
+====================   Animation
+*/
+
+
+
+
+
+.collection-item{
+    transition: transform 1s;
+}
+
+.collection-item:hover{
+    transform: translate(100px);
+}

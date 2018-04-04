@@ -5,7 +5,15 @@ $(document).ready( function(){
     $("#supportEmail").click(function(){
         let complaintForm   =   $("#complaintForm");
         let suggestionForm  =   $("#suggestionForm");
-        let supportForm    =   $("#supportForm");      
+        let supportForm     =   $("#supportForm");
+        let current         =   $(this);
+
+        if(supportForm.hasClass('hide')){
+            current.toggleClass('current');
+        }
+        else {
+            current.toggleClass('current');
+        }
         
         if(suggestionForm.hasClass('hide') && complaintForm.hasClass('hide'))
         {
@@ -24,7 +32,15 @@ $(document).ready( function(){
     $("#suggestionEmail").click(function(){
         let complaintForm   =   $("#complaintForm");
         let suggestionForm  =   $("#suggestionForm");
-        let supportForm    =   $("#supportForm");      
+        let supportForm    =   $("#supportForm");
+        let current         =   $(this);
+
+        if(supportForm.hasClass('hide')){
+            current.toggleClass('current');
+        }
+        else {
+            current.toggleClass('current');
+        }      
         
         if(supportForm.hasClass('hide') && complaintForm.hasClass('hide'))
         {
@@ -45,6 +61,14 @@ $(document).ready( function(){
         let complaintForm   =   $("#complaintForm");
         let suggestionForm  =   $("#suggestionForm");
         let supportForm    =   $("#supportForm");
+        let current         =   $(this);
+
+        if(supportForm.hasClass('hide')){
+            current.toggleClass('current');
+        }
+        else {
+            current.toggleClass('current');
+        }
         
         if(supportForm.hasClass('hide') && suggestionForm.hasClass('hide'))
         {

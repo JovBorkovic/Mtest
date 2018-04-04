@@ -14,11 +14,15 @@
     height: 100%;
 }
 
-.c-contact{
+.formSelectionContainer{
     width: 32%;
     height: 100%;
     display: inline-block;
     text-align: center;
+}
+.formSelectionContainer .current{
+    background-color: #DC458A !important;
+    color: #FFF !important;
 }
 
 .wide-container .container {
