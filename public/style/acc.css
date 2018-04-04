@@ -61,10 +61,10 @@ can edit the font type as well as the size
     font-size: 28px;
     text-transform: uppercase;
     text-shadow:
-        -1px -1px 0 #FFF,  
-        1px -1px 0 #FFF,
-        -1px 1px 0 #FFF,
-        1px 1px 0 #FFF;
+        -1px -1px 0 #2469BB,  
+        1px -1px 0 #2469BB,
+        -1px 1px 0 #2469BB,
+        1px 1px 0 #2469BB;
 }
 .acc-name .material-icons{
     font-size: 40px;
@@ -165,10 +165,10 @@ label for sections on acc page
     letter-spacing: 5px;
     font-weight: 600;
     text-shadow:
-    -1px -1px 0 #FFF,  
-    1px -1px 0 #FFF,
-    -1px 1px 0 #FFF,
-    1px 1px 0 #FFF;
+    -1px -1px 0 #2469BB,  
+    1px -1px 0 #2469BB,
+    -1px 1px 0 #2469BB,
+    1px 1px 0 #2469BB;
 }
 .recent_activity{
     border-bottom: 1px solid #FFF;
