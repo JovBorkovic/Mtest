@@ -1,5 +1,6 @@
 .wide-container{
     margin-right: 30%;
+    height: 100vh;
 }
 
 .T_Container{
@@ -22,4 +23,16 @@ label.thread_status{
 
 .T_Container > .row >  #Message{
     font-size: 16px;
+}
+
+.threadNot {
+    width: 30%;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+
+@keyframes move {
+    100% {transform: translate(300px);}
 }
