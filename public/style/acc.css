@@ -289,9 +289,8 @@ seperate from the background image container for the users name
     }
     .recent_activity{
         border-bottom: 1px solid #FFF;
-        height: 80px;
+        height: 100%;
     }
-    
 }
 
 /*
