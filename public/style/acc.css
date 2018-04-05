@@ -194,7 +194,6 @@ label for sections on acc page
 }
 .message{
     display: inline-block;
-    z-index: 1000;
     width: 100%;
 }
 .message:hover{
