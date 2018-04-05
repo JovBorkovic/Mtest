@@ -172,11 +172,36 @@ label for sections on acc page
 }
 .recent_activity{
     border-bottom: 1px solid #FFF;
-    height: 80px;
+    height: 100%;
 }
 .recent_activity:last-child{
     border-bottom: 0px;
 }
+
+.post{
+    height: 10%;
+    display: flex;
+}
+.account-image{
+    display: inline-block;
+    height: 100%;
+    width: 15%;
+    margin-left: -15%;
+    z-index: -1;
+}
+.account-image>.material-icons{
+    font-size: 65px;
+}
+.message{
+    display: inline-block;
+    z-index: 1000;
+    width: 100%;
+}
+.message:hover{
+    animation: slide 2s forwards;
+    animation-delay: 500ms;
+}
+
 
 /*
 =========================================      Animations
@@ -198,9 +223,9 @@ label for sections on acc page
         z-index: 2; 
         width: 100%; 
         height: 100%; 
-        position: fixed; 
-        top: 0; 
-        left: 0; 
+        position: fixed;
+        top: 0;
+        left: 0;
     }
 }
 @keyframes stretch{
@@ -214,6 +239,10 @@ label for sections on acc page
     }
 }
 
+
+@keyframes slide {
+    100% {transform: translateX(-15%);}
+}
 
 
 /*
