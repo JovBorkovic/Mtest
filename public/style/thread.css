@@ -1,0 +1,25 @@
+.wide-container{
+    margin-right: 30%;
+}
+
+.T_Container{
+    padding: 10px 20px;
+}
+
+label.thread_title{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+label.thread_status{
+    font-size:  15px;
+    font-family: 'Montserrat', monospace;
+}
+
+#status-check .material-icons{
+    font-size: 20px;
+}
+
+.T_Container > .row >  #Message{
+    font-size: 16px;
+}

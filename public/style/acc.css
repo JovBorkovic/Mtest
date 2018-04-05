@@ -179,7 +179,7 @@ label for sections on acc page
 }
 
 .post{
-    height: 10%;
+    height: 20%;
     display: flex;
 }
 .account-image{
@@ -197,9 +197,15 @@ label for sections on acc page
     width: 100%;
 }
 .message:hover{
-    animation: slide 2s forwards;
-    animation-delay: 500ms;
+    animation: slide 1s forwards;
+    animation-delay: 200ms;
 }
+.message .time{
+    font-size: 10px;
+    color: grey;
+}
+
+
 
 
 /*
