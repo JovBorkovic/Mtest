@@ -3,6 +3,9 @@
     height: 100vh;
 }
 
+#T_Container {
+    min-height: 200px;
+}
 .T_Container{
     padding: 10px 20px;
 }
@@ -33,6 +36,3 @@ label.thread_status{
 }
 
 
-@keyframes move {
-    100% {transform: translate(300px);}
-}
