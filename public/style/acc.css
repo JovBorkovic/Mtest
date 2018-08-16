@@ -69,15 +69,6 @@ can edit the font type as well as the size
 .acc-name .material-icons{
     font-size: 40px;
 }
-
-.wide-container > .acc-body > .recactivity_container > .recent_activity > .row > .col > .material-icons{
-    font-size: 80px;
-}
-
-.wide-container > .acc-body > .recactivity_container > .recent_activity > .row > .time{
-    font-size: 10px;
-}
-
 .parallax .row{
     padding: 0px;
     margin: 0;
@@ -189,7 +180,7 @@ label for sections on acc page
     margin-left: -15%;
     z-index: -1;
 }
-.account-image>.material-icons{
+.account-image > .material-icons{
     font-size: 65px;
 }
 .message{

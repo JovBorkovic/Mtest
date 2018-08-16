@@ -8,12 +8,10 @@ $(document).ready( function(){
         let supportForm     =   $("#supportForm");
         let current         =   $(this);
 
-        if(supportForm.hasClass('hide')){
-            current.toggleClass('current');
-        }
-        else {
-            current.toggleClass('current');
-        }
+        
+        current.toggleClass('current');
+        $("#suggestionEmail").removeClass('current');
+        $("#complaintEmail").removeClass('current');
         
         if(suggestionForm.hasClass('hide') && complaintForm.hasClass('hide'))
         {
@@ -35,12 +33,10 @@ $(document).ready( function(){
         let supportForm    =   $("#supportForm");
         let current         =   $(this);
 
-        if(supportForm.hasClass('hide')){
-            current.toggleClass('current');
-        }
-        else {
-            current.toggleClass('current');
-        }      
+        
+        current.toggleClass('current');
+        $("#supportEmail").removeClass('current');
+        $("#complaintEmail").removeClass('current');
         
         if(supportForm.hasClass('hide') && complaintForm.hasClass('hide'))
         {
@@ -63,12 +59,10 @@ $(document).ready( function(){
         let supportForm    =   $("#supportForm");
         let current         =   $(this);
 
-        if(supportForm.hasClass('hide')){
-            current.toggleClass('current');
-        }
-        else {
-            current.toggleClass('current');
-        }
+        
+        current.toggleClass('current');
+        $("#suggestionEmail").removeClass('current');
+        $("#supportEmail").removeClass('current');
         
         if(supportForm.hasClass('hide') && suggestionForm.hasClass('hide'))
         {
