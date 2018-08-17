@@ -7,9 +7,8 @@
 }
 
 
-.collection-item:hover{
+.collection-item:hover ~ .collection-item{
     animation: slide 1s forwards;
-    animation-delay: 200ms;
 }
 
 /*
@@ -17,6 +16,6 @@
 */
 
 @keyframes slide {
-    50% {transform: translate(100px);}
-    100% {transform: translate(50px);}
+    50% {transform: translate(50px);}
+    100% {transform: translate(20px);}
 }
